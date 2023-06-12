@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">asmgd1</string>
+    <string name="txt_chaomungban">Chào Mừng Bạn</string>
+    <string name="txt_dangkytaikhoan">Đăng Ký Tài Khoản\n</string>
+    <string name="txt_nhapusername">Nhập tên đăng nhập</string>
+    <string name="txt_nhappassword">Nhập mật khẩu\n</string>
+    <string name="txt_nhaplaipassword">Nhập lại mật khẩu</string>
+    <string name="txt_dangnhaptieptuc">Vui lòng đăng nhập để tiếp tục</string>
+    <string name="txt_chaomungbandatl">Chào mừng bạn đã trở lại</string>
+</resources>

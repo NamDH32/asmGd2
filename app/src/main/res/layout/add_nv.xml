@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Nhân Viên"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:id="@+id/edt_maNV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã NV:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edt_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên NV:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edt_phongBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập phòng ban:"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_sumbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumbit"
+        android:background="@drawable/edt_nhan_vien"
+        app:backgroundTint="@null"
+        android:textStyle="bold"/>
+
+</LinearLayout>
